@@ -1,0 +1,18 @@
+Jupyter Notebook Version: Anaconda-2025-06-py3.11
+Programming Language: Python
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import collections
+import seaborn as sns
+import matplotlib
+import sklearn
+from sklearn.model_selection import train_test_split
+import imblearn
+import xgboost
+import shap
+ 
+!pip install imbalanced-learn
+!pip install xgboost
+!pip install shap
