@@ -1,9 +1,12 @@
 # Predicting term-deposit subscriptions using ML on 41,176 bank marketing records
 
-A leakage-controlled machine learning pipeline comparing Logistic Regression, Random Forest and XGBoost, with SHAP used to explain what drives subscriptions.
+Machine-Learning pipeline was developed comparing Logistic Regression, Random Forest and XGBoost, with SHAP Explainable AI used to derive key factors associated with customers subscribing to term-deposit.
 
 ## 1. Business Problem
-Telemarketing campaigns convert few customers, so many calls are wasted. The bank needs to target better: contact the right customers, through the right channel, at the right time.
+
+Indiscriminate telephone marketing incur additional costs, cause inconvenience to customers and hurt their desire to receive future marketing. It can also cause employees to make numerous unsuccessful phone calls before receiving a positive response. This is evident with the Portuguese Bank dataset, where only 4640 out of 41.188 observations were customers that subscribed to a term deposit. 
+
+This project aims to address the challenges by developing a predictive marketing systems that enable banks to focus on those customers who are more likely to subscribe. 
 
 ## 2. Dataset
 - Source: UCI Portuguese Bank Marketing dataset (Moro et al., 2014)
@@ -31,7 +34,7 @@ Framework: **CRISP-DM**
 XGBoost had the best F1 (the primary metric for imbalanced data). Logistic Regression found the most subscribers (highest recall) but made more wasted calls. ROC-AUC was about 0.80 for all three models.
 
 ## 5. Key Insights and Business Recommendations
-Top SHAP drivers: `nr.employed` (0.447), `contact` (0.229), `emp.var.rate` (0.154), `poutcome` (0.148).
+Top SHAP drivers: `nr.employed` (0.447), `contact` (0.228), `emp.var.rate` (0.154), `poutcome` (0.147).
 
 - **Prioritise customers with a successful previous campaign.** They subscribed at 65.11%, against 8.83% for customers with no previous contact.
 - **Use cellular contact.** It converted at 14.74%, against 5.23% for landline.
