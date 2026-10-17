@@ -45,7 +45,7 @@ Top SHAP Features: `nr.employed` (0.447), `contact` (0.228), `emp.var.rate` (0.1
 
 The dataset represents Portuguese campaigns conducted in an earlier economic period, so the findings may not transfer directly to current markets or other countries. No external dataset or live campaign was used to test generalisability, operational costs or customer responses. Ordinal encoding may have imposed an artificial order on nominal categories, and correlated macroeconomic predictors complicate the interpretation of individual SHAP values. Finally, test-set comparisons were used in the reported model choice, which creates a possible post hoc selection bias.
 
-## 8. Links
+## 7. Links
 - 📄 [Full ML workflow with code and results (PDF)](notebooks/bank-marketing-term-deposit.pdf)
 - 📘 [Dissertation report (PDF)](report/Dissertation_Report.pdf)
 - 💼 [LinkedIn] https://www.linkedin.com/in/kamal-hassan-754298132/?isSelfProfile=true
