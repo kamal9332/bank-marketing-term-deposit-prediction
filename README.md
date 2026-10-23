@@ -36,7 +36,7 @@ XGBoost had the highest F1 (the primary evaluation metric for imbalanced data). 
 ## 5. Key Insights and Business Recommendations
 Top SHAP Features: `nr.employed` (0.447), `contact` (0.228), `emp.var.rate` (0.154), `poutcome` (0.147).
 
-**Prioritise customers with a successful previous campaign.** They subscribed at 65.11%, against 8.83% for customers with no previous campaign.
+**Prioritise customers employment conditions, the contact channel and the outcome of previous campaigns rather than by demographic information alone successful previous campaign.** They subscribed at 65.11%, against 8.83% for customers with no previous campaign.
 - **Favour cellular contact.** It subscribed at 14.74%, against 5.23% for telephone (an association, not proof that the channel itself causes the difference).
 - **Take the economic climate into account when timing campaigns.** Employment and economic indicators were the strongest signals.
 - **Use model scores to help rank prospects** instead of treating everyone as equally likely to subscribe.
